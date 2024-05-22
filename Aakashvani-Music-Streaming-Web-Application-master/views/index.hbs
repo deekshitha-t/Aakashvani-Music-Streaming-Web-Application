@@ -1,0 +1,340 @@
+    <div class="container-fluid" id="home">
+         <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Aakashvani</h1>
+                    <p>---Music Like Never Before---</p>
+                </div>
+               <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header>
+   <div class='row mt-4'> 
+ <div class="container">
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="card.jpg" class="d-block w-100" id="carimg">
+    </div>
+    <div class="carousel-item">
+      <img src="car1.jpg" class="d-block w-100" id="carimg">
+    </div>
+    <div class="carousel-item">
+      <img src="car2.jpg" class="d-block w-100" id="carimg">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+
+    <h3 class="mt-3 mb-4 text-center" id="home-title">Trending Today</h3>
+    <div class="row">
+        
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0" id="one">
+            <div  class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageOne" src="{{firstAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcOne" data1="{{firstAlbumImage}}" data2="{{firstAlbumName}}" data="{{audioOne.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioOne.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songNameOne" value="{{firstAlbumName}}">{{firstAlbumName}}</h5>
+                <button type="button" id="firstSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top"  id="songImageTwo" src="{{secondAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcTwo" data1="{{secondAlbumImage}}" data2="{{secondAlbumName}}" data="{{audioTwo.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioTwo.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songNameTwo" value="{{secondAlbumName}}">{{secondAlbumName}}</h5>
+                <button type="button" id="secondSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageThree" src="{{thirdAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcThree" data1="{{thirdAlbumImage}}" data2="{{thirdAlbumName}}" data="{{audioThree.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songNameThree" value="{{thirdAlbumName}}">{{thirdAlbumName}}</h5>
+                <button type="button" id="thirdSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+      
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage10" src="{{AlbumImage10}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc10" data1="{{AlbumImage10}}" data2="{{AlbumName10}}" data="{{audio10.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName10" value="{{AlbumName10}}">{{AlbumName10}}</h5>
+                <button type="button" id="Song10" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage11" src="{{AlbumImage11}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc11" data1="{{AlbumImage11}}" data2="{{AlbumName11}}" data="{{audio11.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName11" value="{{AlbumName11}}">{{AlbumName11}}</h5>
+                <button type="button" id="Song11" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage12" src="{{AlbumImage12}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc12" data1="{{AlbumImage12}}" data2="{{AlbumName12}}" data="{{audio12.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName12" value="{{AlbumName12}}">{{AlbumName12}}</h5>
+                <button type="button" id="Song12" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+    </div>
+    <h3 class="mt-3 mb-4 text-center">Weekly Top Songs</h3>
+    <div class="row mb-5">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageFour" src="{{fourthAlbumImage}}" id="img" alt="Card image cap">
+                <div class="overlay" id="audioSrcFour" data1="{{fourthAlbumImage}}" data2="{{fourthAlbumName}}" data="{{audioFour.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioFour.preview_url}} class="first"></audio> --}}
+                <h5 class="album-name pt-4 pb-4" id="four" value="{{fourthAlbumName}}">{{fourthAlbumName}}</h5>
+                <button type="button" id="fourthSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top"  id="songImageFive" src="{{fifthAlbumImage}}" alt="Card image cap">
+                <div class="overlay"  id="audioSrcFive"  data1="{{fifthAlbumImage}}" data2="{{fifthAlbumName}}" data="{{audioFive.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioFive.preview_url}} class="first"></audio> --}}
+                <h5 class="album-name pt-4 pb-4" id="songNameFive" value="{{fifthAlbumName}}">{{fifthAlbumName}}</h5>
+                <button type="button" id="fifthSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageSix" src="{{sixthAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcSix" data1="{{sixthAlbumImage}}" data2="{{sixthAlbumName}}" data="{{audioSix.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioSix.preview_url}} class="first"></audio> --}}
+                <h5 class="album-name pt-4 pb-4" id="six" value="{{sixthAlbumName}}">{{sixthAlbumName}}</h5>
+                <button type="button" id="sixthSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xs-6 mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageSeven" src="{{seventhAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcSeven" data1="{{seventhAlbumImage}}" data2="{{seventhAlbumName}}"data="{{audioSeven.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioSeven.preview_url}} class="first"></audio> --}}
+                <h5 class="album-name pt-4 pb-1" id="songNameSeven" value="{{seventhAlbumName}}">{{seventhAlbumName}}</h5>
+                <button type="button" id="seventhSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xs-6 mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageEigth" src="{{eigthAlbumImage}}" alt="Card image cap">
+                <div class="overlay"  id="audioSrcEigth" data1="{{eigthAlbumImage}}" data2="{{eigthAlbumName}}" data="{{audioEigth.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioEigth.preview_url}} class="first"></audio> --}}
+                <h5 class="album-name pt-4 pb-4" id="songNameEigth" value="{{eigthAlbumName}}">{{eigthAlbumName}}</h5>
+                <button type="button" id="eigthSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xs-6 mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImageNine" src="{{ninthAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrcNine" data1="{{ninthAlbumImage}}" data2="{{ninthAlbumName}}"data="{{audioNine.preview_url}}">
+                </div>
+                {{!-- <audio controls src={{audioNine.preview_url}} class="first" id="last"></audio> --}}
+                <h5 class="album-name pt-4 pb-4" id="songNameNine" value="{{ninthAlbumName}}">{{ninthAlbumName}}</h5>
+                <button type="button" id="ninthSong" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+    </div>
+
+     <h3 class="mt-3 mb-4 text-center">Top Telugu</h3>
+    <div class="row mb-5">
+       <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage13" src="{{AlbumImage13}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc13" data1="{{AlbumImage13}}" data2="{{AlbumName13}}" data="{{audio13.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName13" value="{{AlbumName13}}">{{AlbumName13}}</h5>
+                <button type="button" id="Song13" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage14" src="{{AlbumImage14}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc14" data1="{{AlbumImage14}}" data2="{{AlbumName14}}" data="{{audio14.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName14" value="{{AlbumName14}}">{{AlbumName14}}</h5>
+                <button type="button" id="Song14" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage15" src="{{AlbumImage15}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc15" data1="{{AlbumImage15}}" data2="{{AlbumName15}}" data="{{audio15.preview_url}}">                
+                </div>
+                {{!-- <audio controls src={{audioThree.preview_url}} class="second"></audio> --}}
+                <h5 class="album-name pt-4 pb-2" id="songName15" value="{{AlbumName15}}">{{AlbumName15}}</h5>
+                <button type="button" id="Song15" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage16" src="{{AlbumImage16}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc16" data1="{{AlbumImage16}}" data2="{{AlbumName16}}" data="{{audio16.preview_url}}">                
+                </div>
+                
+                <h5 class="album-name pt-4 pb-2" id="songName16" value="{{AlbumName16}}">{{AlbumName16}}</h5>
+                <button type="button" id="Song16" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage17" src="{{AlbumImage17}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc17" data1="{{AlbumImage17}}" data2="{{AlbumName17}}" data="{{audio17.preview_url}}">                
+                </div>
+                
+                <h5 class="album-name pt-4 pb-2" id="songName17" value="{{AlbumName17}}">{{AlbumName17}}</h5>
+                <button type="button" id="Song17" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage18" src="{{AlbumImage18}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc18" data1="{{AlbumImage18}}" data2="{{AlbumName18}}" data="{{audio18.preview_url}}">                
+                </div>
+               
+                <h5 class="album-name pt-4 pb-2" id="songName18" value="{{AlbumName18}}">{{AlbumName18}}</h5>
+                <button type="button" id="Song18" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+    </div>
+
+     <h3 class="mt-3 mb-4 text-center">Top Hindi</h3>
+    <div class="row mb-5">
+       <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage19" src="{{AlbumImage19}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc19" data1="{{AlbumImage19}}" data2="{{AlbumName19}}" data="{{audio19.preview_url}}">                
+                </div>
+                <h5 class="album-name pt-4 pb-2" id="songName19" value="{{AlbumName19}}">{{AlbumName19}}</h5>
+                <button type="button" id="Song19" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage20" src="{{AlbumImage20}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc20" data1="{{AlbumImage20}}" data2="{{AlbumName20}}" data="{{audio20.preview_url}}">                
+                </div>
+                <h5 class="album-name pt-4 pb-2" id="songName20" value="{{AlbumName20}}">{{AlbumName20}}</h5>
+                <button type="button" id="Song20" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage21" src="kuch.jpg" alt="Card image cap">
+                <div class="overlay" id="audioSrc21" data1="{{AlbumImage20}}" data2="{{AlbumName20}}" data="{{audio21.preview_url}}">                
+                </div>
+                <h5 class="album-name pt-4 pb-2" id="songName21">Kuch Bhi Ho Jaye</h5>
+                <button type="button" id="Song21" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0"> 
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage16" src="ek tarfa.jpg" alt="Card image cap">
+                <div class="overlay" id="audioSrc16" data1="{{AlbumImage20}}" data2="{{AlbumName20}}" data="{{audio22.preview_url}}">                
+                </div>
+                
+                <h5 class="album-name pt-4 pb-2" id="songName16" value="EK Tarfa">EK Tarfa</h5>
+                <button type="button" id="Song16" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage17" src="jinke.jpg" alt="Card image cap">
+                <div class="overlay" id="audioSrc17" data1="{{AlbumImage20}}" data2="{{AlbumName20}}" data="{{audio23.preview_url}}">                
+                </div>
+                
+                <h5 class="album-name pt-4 pb-2" id="songName17" value="Jinke Liye">Jinke Liye</h5>
+                <button type="button" id="Song17" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-2  mb-2  ml-0">
+            <div class="card text-center" style="width: 12rem;">
+                <img class="card-img-top" id="songImage18" src="{{firstAlbumImage}}" alt="Card image cap">
+                <div class="overlay" id="audioSrc18" data1="{{firstAlbumImage}}" data2="{{AlbumName18}}" data="{{audio24.preview_url}}">                
+                </div>
+               
+                <h5 class="album-name pt-4 pb-2" id="songName18" value="Taare Ginn">Taare Ginn</h5>
+                <button type="button" id="Song18" class="btn btn-dark btn-circle text-center"><i class="fas fa-plus"></i>
+                <span class="tooltiptext">Add to Playlist</span></button>
+            </div>
+        </div> 
+
+    </div>
+
+
+    </div>
